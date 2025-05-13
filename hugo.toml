@@ -4,14 +4,18 @@ theme = 'hugo-bearblog'
 author = "Ian Limarta"
 title = "Ian Limarta"
 
-[permalinks]
-  blog = "/:slug/"
-  tags = "/blog/:slug"
+sectionPagesMenu = 'main'
+
+#[permalinks]
+#  blog = "/:slug/"
+#  tags = "/blog/:slug"
 
 # enableRobotsTXT = true
+
 [params]
   description = "what?"
   favicon = "images/favicon.png"
+  mathjax = false
 
   # These "images" are used for the structured data templates. This will show up, when
   # services like Twitter or Slack want to generate a preview of a link to your site.
@@ -19,21 +23,6 @@ title = "Ian Limarta"
   # https://gohugo.io/templates/internal#open-graph.
   images = ["images/share.png"]
 
-  math = false
-
-[markup]
-  [markup.highlight]
-    style = 'friendly'
-    lineNos = true
-    lineNumbersInTable = false
-    codeFences = true
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      [markup.goldmark.extensions.passthrough]
-        enable = true
-        [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['\[', '\]'], ['$$', '$$']]
-          inline = [['\(', '\)']]
 
 [caches]
   [caches.images]
