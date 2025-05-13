@@ -4,7 +4,6 @@ date = "2023-06-03T20:05:57-05:00"
 description = "A short article explaining a beautiful way to estimate geodesics on meshes."
 
 tags = []
-draft = true
 +++
 
 
