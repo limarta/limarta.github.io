@@ -14,7 +14,7 @@ sectionPagesMenu = 'main'
 
 [params]
   description = "what?"
-  favicon = "images/favicon.png"
+  favicon = "images/favicon.JPG"
   mathjax = false
 
   # These "images" are used for the structured data templates. This will show up, when
