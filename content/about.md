@@ -4,4 +4,4 @@ menu = "main"
 weight = 20 
 +++
 
-I enjoy writing math and software.
+I enjoy math and writing software.

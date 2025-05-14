@@ -5,7 +5,6 @@ description = "We re-examine the Evidence Lower Bound as a form of Monte Carlo e
 
 tags = []
 math = true
-draft = true
 +++
 
 I am quite forgetful and it doesn't help that many Bayesian methods look too similar, making it easy to get confused. This is especially true when said algorithms use make slightly different assumptions of the distributions accessible, what is conditioned on what, etc.
